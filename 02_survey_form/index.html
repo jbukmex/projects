@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="main">
+            <h2 id="back_link"><a href="../">&lt;--- Back</a></h2>
+            <div id="title_box">
+                <h1 id="title">What are your favourite Zelda Items?</h1>
+                <h2>JB/NB/WP</h2>
+            </div>
+            <div>
+                <img id="master_sword_image" alt="This will be an image" src="Master_Sword_Image.png">
+            </div>
+            <div id="description_div">
+                <h2>
+                    What you need to fill out...
+                </h2>
+                <p id="description">
+                    Here, you can leave your name and email, along with some of your favourite main items from the legend of Zelda, then you can write some of your other favourite items, such as the flute, or Daruk's Boulder Breaker etc.
+                </p>
+                <p>
+                    Enjoy, and let's get started!
+                </p>
+            </div>
+            <div>
+                <img id="boomerang_image" alt="This will be an image" src="Zelda_Boomerage_Image.png">
+            </div>
+            <div id="questions_div">
+                <form id="survey-form">
+                    <label id="name-label" for="name">Enter your name:</label>
+                    <br>
+                    <input id="name" type="name" placeholder="John Smith" required>
+                    <br>
+                    <br>
+                    <label id="email-label" for="email">Enter your email:</label>
+                    <br>
+                    <input id="email" type="email" placeholder="johnsmith@gmail.com" required>
+                    <br>
+                    <br>
+                    <label id="number-label" for="number">How many Zelda items can you come up with in 30 seconds?</label>
+                    <br>
+                    <input id="number" type="number" placeholder="22" min="0" max="9999">
+                    <br>
+                    <br>
+                    <label id="dropdown-label" for="number">Choose your favourite Zelda game:</label>
+                    <br>
+                    <select id="dropdown" name="dropdown-items" id="item-select">
+                        <option value="">Breath of the Wild 2? Can't Wait!</option>
+                        <option value="Skward-Sword">Skyward Sword</option>
+                        <option value="The-Minish-Cap">The Minish Cap</option>
+                        <option value="Four-Swords">Four Swords</option>
+                        <option value="Ocarina-of-Time">Ocarina of Time</option>
+                        <option value="A-Link-to-the-Past">A Link to the Past</option>
+                        <option value="Link's-awakening">Link's Awakening</option>
+                        <option value="Oracle-of-Ages-and-Oracle-of-Seasons">Oracle of Ages and Oracle of Seasons</option>
+                        <option value="A-link-between-Worlds">A link between Worlds</option>
+                        <option value="Triforce-Heroes">Triforce Heroes</option>
+                        <option value="The-Legend-of-Zelda">The Legend of Zelda</option>
+                        <option value="The-Adventure-of-Link">The Adventure of Link</option>
+                        <option value="Majora's-Mask">Majora's Mask</option>
+                        <option value="Twilight-Princess">Twilight Princess</option>
+                        <option value="Four-Swords-Adventures">Four Swords Adventures</option>
+                        <option value="Wind-Waker">Wind Waker</option>
+                        <option value="Phantom-Hourglass">Phantom Hourglass</option>
+                        <option value="Spirit-Tracks">Spirit Tracks</option>
+                        <option value="Age-of-Calamity">Age of Calamity</option>
+                        <option value="Breath-of-the-wild">Breath of the Wild</option>
+                    </select>
+                    <br>
+                    <br>
+                    <div>
+                        <p>Who is your favourite reoccurring character?</p>
+                        <input type="radio" id="Link" name="character" value="Link">
+                        <label for="Link">Link</label><br>
+                        <input type="radio" id="Zelda" name="character" value="Zelda">
+                        <label for="Zelda">Zelda</label><br>
+                        <input type="radio" id="Ganon" name="character" value="Ganon">
+                        <label for="Ganon">Ganon</label>
+                    </div>
+                    <br>
+                    <div>
+                        <p>Which OP weapons do you like?</p>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> Master Sword</label><br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2"> Bow of Light</label><br>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <label for="vehicle3"> Fierce Deity's Mask</label>
+                    </div>
+                    <br>
+                    <br>
+                    <label for="Other_Items">Here you can put a list of all other items that you like or that you think are underated:</label>
+                    <br>
+                    <br>
+                    <textarea id="Other_Items" name="Other_Items" rows="5" cols="50"></textarea>
+                    <br>
+                    <br>
+                    <button id="submit" type="submit" value="Submit">Submit</button>
+
+                </form>
+            </div>
+            <img id="bomb_image" alt="This will be an image" src="TFH_Bomb_Render.png">
+            <div id="title_box">
+                <h2>Thank You!</h2>
+            </div>
+        </div>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
