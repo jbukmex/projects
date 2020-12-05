@@ -2,14 +2,22 @@
 <html>
     <head>
         <style>
+            body{
+                overflow: hidden;
+            }
+            #main{
+                height: 100vh;
+                max-width: 100%;
+                display: flex;
+            }
             #main-img{
                 max-width: 100%;
+                background-repeat: no-repeat;
             }
 
             #main-content{
                 padding: 15px;
                 margin: 5px;
-                margin-right: 60%;
                 text-align: center;
                 align-items: center;
             }
@@ -20,15 +28,16 @@
 
             #encode{
                 color: #005588;
+                padding: 15px;
+                text-align: left;
+                align-self:flex-end;
+                margin-right: 70%;
+                height: 25%;         
             }
 
             #encode-link{
                 text-decoration: none;
                 color: #005588;
-            }
-
-            #encode:hover{
-                font-size: larger;
             }
         </style>
     </head>
@@ -46,15 +55,13 @@
                         Just you wait and see...<br><br><br>
                     </h2>
                 </div>
+                </a>
+            </div>
+            <div id="encode">
                 <a id="encode-link" href="https://encode.host" target="_blank">
-                    <div id="encode">
-                        <h3>
-                            Proudly Powered by
-                        </h3>
-                            <h2>
-                                &lt;/encode&gt;
-                            </h2>
-                    </div>
+                    <p>
+                    Proudly Powered by &lt;/encode&gt;
+                    </p>
                 </a>
             </div>
         </div>
