@@ -55,3 +55,8 @@ body{
 #master-image{
     max-width: 20%;
 }
+
+#encode-logo{
+    margin-top: 5px;
+    size: 80%;
+}
