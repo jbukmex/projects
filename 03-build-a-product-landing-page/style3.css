@@ -67,6 +67,12 @@ body{
     align-items: center;
     margin-top: 60px;
 }
+@media only screen and (max-width: 550px){
+    #content{
+        margin-top: 165px;
+    }
+}
+
 #content img{
     max-width: 100%;
 }
@@ -98,6 +104,10 @@ body{
     padding: 15px;
     text-align: center;
     align-items: center;
+}
+
+#video{
+    max-width: 100%;
 }
 
 #form-section{
