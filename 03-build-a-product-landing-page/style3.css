@@ -24,22 +24,27 @@ body{
 
 #header{
     padding: 10px;
-    background-color: rgba(93, 93, 145, 0.582);
-    text-align: center;
+    background-color: white;
     margin-bottom: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    border-bottom: 5px black solid ;
 }
 
 #header-img{
-    max-width: 100px;
-    margin: 15px;
+    max-width: 50px;
+    align-self: flex-start;
+    padding-left: 50px;
 
 }
 
 #nav-bar{
-    text-align: center;
-    padding: 15px;
     border: 15px;
-    position: sticky;
+    align-items: flex-end;
+    float: right;
 }
 .nav-link{
     color: white;
@@ -60,6 +65,7 @@ body{
     padding: 15px;
     text-align: center;
     align-items: center;
+    margin-top: 60px;
 }
 #content img{
     max-width: 100%;
