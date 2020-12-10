@@ -4,37 +4,28 @@
         <style>
             body{
                 overflow: hidden;
+                background-image:url(Laptop-computer.jpg);
+                background-repeat: no-repeat;
             }
             #main{
                 height: 100vh;
-                max-width: 100%;
+                width: 100%;
                 display: flex;
+                flex-flow: row wrap;
             }
-            #main-img{
-                max-width: 100%;
-                background-repeat: no-repeat;
-            }
-
-            #main-content{
-                padding: 15px;
-                margin: 5px;
-                text-align: center;
-                align-items: center;
-            }
-
-            body{
-                background-image:url(Laptop-computer.jpg);
+            
+            #main h1,#main h2,#main a{
+                max-width: 200px;
+                justify-content: flex-start;
+                
             }
 
             #encode{
                 color: #005588;
                 padding: 15px;
-                text-align: left;
-                align-self:flex-end;
-                margin-right: 70%;
-                height: 25%;         
+                text-align: center; 
+                align-self: flex-end;
             }
-
             #encode-link{
                 text-decoration: none;
                 color: #005588;
@@ -43,27 +34,18 @@
     </head>
     <body>
         <div id="main">
-            <div id="main-content">
-                <div id="title">
-                    <h1>Coming Soon...</h1>
-                </div>
-                <div id="content">
-                    <h2>
-                        Hold your horses,<br>
-                        'Cause we guarantee,<br>
-                        We're cooking up something good,<br>
-                        Just you wait and see...<br><br><br>
-                    </h2>
-                </div>
-                </a>
-            </div>
-            <div id="encode">
-                <a id="encode-link" href="https://encode.host" target="_blank">
-                    <p>
-                    Proudly Powered by &lt;/encode&gt;
-                    </p>
-                </a>
-            </div>
+            <h1>Coming Soon...</h1>
+            <h2>
+                Hold your horses,<br>
+                'Cause we guarantee,<br>
+                We're cooking up something good,<br>
+                Just you wait and see...<br><br><br>
+            </h2>
+            <a id="encode-link" href="https://encode.host" target="_blank">
+                <p>
+                Proudly Powered by &lt;/encode&gt;
+                </p>
+            </a>
         </div>
     </body>
 </html>
