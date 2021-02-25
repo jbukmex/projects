@@ -110,3 +110,7 @@ html{
 #entry1-content{
     text-align: left;
 }
+
+#vid{
+    max-width: 100%;
+}
