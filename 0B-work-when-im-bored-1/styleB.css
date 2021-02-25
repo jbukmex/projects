@@ -23,6 +23,12 @@ html{
     margin: 15px;
 }
 
+#Entry1{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 15px;
+}
+
 #title-div{
     background-color: black;
     padding: 10px;
@@ -32,6 +38,8 @@ html{
 #title-text{
     color: white;
 }
+
+
 
 #navbar{
     border: 15px;
@@ -93,4 +101,12 @@ html{
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom  : 25px;
+}
+
+#entry1-subheader{
+    text-align: left;
+}
+
+#entry1-content{
+    text-align: left;
 }
