@@ -1,0 +1,94 @@
+body{
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+#main{
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+#title{
+    padding: 10px;
+    background-color: rgba(93, 93, 145, 0.582);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#img-div{
+    text-align: center;
+    padding: 10px;
+    width: 29%;
+}   
+#image{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.one-div{
+    background-color: rgba(93, 93, 145, 0.582);
+    padding: 25px;
+    text-align: center;
+    display: flex;
+}
+
+.regular-div{
+    background-color: rgba(93, 93, 145, 0.582);
+    padding: 25px;
+    text-align: center;
+}
+
+#intro-div{
+    background-color: rgba(93, 93, 145, 0.582);
+    padding: 25px;
+    text-align: center;
+    width: 69%;
+    height: 100%;
+}
+
+#beginning{
+    width: 100%;
+}
+#forks{
+    display: flex;
+}
+#downfall,#child,#adult{
+    width: 33%;
+    flex-direction: column;
+}
+#dungeonlink{
+    text-align: center;
+    padding: 10px;
+}
+
+.link{
+    padding: 10px;
+    background-color: rgba(93, 93, 145, 0.582);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.back-link{
+    padding: 10px;
+    background-color: rgba(93, 93, 145, 0.582);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.question-link{
+    text-decoration: none;
+    font-size: 20px;
+    color: beige;
+}
+
+.question-link2{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.conversation-p{
+    font-size: 20px;
+}
